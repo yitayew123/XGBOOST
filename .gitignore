@@ -17,6 +17,7 @@ model_artifacts.pkl
 # Virtual environment
 venv/
 env/
+XGBOOST_ENV/
 .venv/
 
 # Streamlit cache

@@ -12,3 +12,4 @@ __pycache__/
 .DS_Store
 Thumbs.db
 xgb_model.pkl
+model_artifacts.pkl

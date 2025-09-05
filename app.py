@@ -208,3 +208,5 @@ if predict_button:
             """,
             unsafe_allow_html=True
         )
+
+# End of app.py

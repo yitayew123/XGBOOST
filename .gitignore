@@ -7,9 +7,12 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+*.pkl
 
 # Ignore system files
 .DS_Store
 Thumbs.db
+# Ignore model files
 xgb_model.pkl
 model_artifacts.pkl
+

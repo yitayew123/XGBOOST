@@ -1,21 +1,37 @@
 ===========================================================
-EV Car Price Prediction Using XGBoost and Streamlit
+EV Car Purchase Prediction App 🚗
 ===========================================================
 
 Project Overview:
 -----------------
-This project focuses on predicting electric vehicle (EV) prices using the XGBoost machine learning algorithm. 
-The model is trained on historical EV data to provide accurate price predictions based on key features.
+This project is an EV Car Purchase Prediction App that predicts whether a customer is likely 
+to purchase an SUV electric vehicle (EV) using the XGBoost machine learning algorithm. 
+The model is trained on historical customer data to provide accurate predictions based 
+on key customer features.
 
-A Streamlit web application is included to allow users to input car features interactively and receive 
-real-time predicted prices.
+The app is deployed using Streamlit, allowing users to input customer information interactively 
+and get real-time predictions.
 
 Features:
 ---------
-- Accurate EV price predictions using XGBoost.
+- Predicts if a customer will purchase an SUV EV using XGBoost.
 - Interactive Streamlit interface for real-time predictions.
-- Includes data preprocessing for reliable predictions.
-- Easily extendable to new features or datasets.
+- Handles multiple customer input features including salary, credit score, and more.
+- Includes preprocessing steps for clean and reliable predictions.
+- Easily extendable to include additional customer features or data.
+
+Customer Input Features:
+------------------------
+The app requires the following customer features to make a prediction:
+
+1. Estimated Salary ($)
+2. Credit Score
+3. Internet Usage per Day (hours)
+4. Age
+5. Annual Expenses ($)
+6. Number of Dependents
+7. Loan Amount ($)
+8. Employment Status (e.g., Employed, Unemployed)
 
 Installation:
 -------------
@@ -41,7 +57,8 @@ Usage:
 
 2. Open the local URL provided by Streamlit in your browser.
 
-3. Enter EV car features in the input fields to get predicted prices instantly.
+3. Enter the customer features listed above to predict whether the customer is likely 
+   to purchase an SUV EV.
 
 Project Structure:
 ------------------
@@ -62,7 +79,7 @@ Dependencies:
 
 Contributing:
 -------------
-Contributions are welcome! To improve the model, add new features, or enhance the app,
+Contributions are welcome! To improve the model, add new features, or enhance the app, 
 please open an issue or submit a pull request.
 
 License:
